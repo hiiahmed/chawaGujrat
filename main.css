@@ -1,0 +1,177 @@
+html {
+  font-size: 62.5%;
+  font-weight: 600;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  pad: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navbar-brand {
+  font-size: xx-large;
+  color: #EAB543;
+}
+
+.navbar .navbar-toggler {
+  border: 2px solid black;
+  color: black;
+}
+
+.navbar-collapse .navbar-nav {
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-collapse .navbar-nav .active .nav-link {
+  color: black;
+  font-weight: 500;
+}
+.navbar-collapse .navbar-nav .nav-link {
+  font-weight: 500;
+  color: black;
+}
+.navbar-collapse .navbar-nav .nav-link:hover, .navbar-collapse .navbar-nav .navbar-brand:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.navbar {
+  border-bottom: 0.1rem solid black;
+  background-color: #EAB521;
+}
+
+.butn {
+  margin-right: 1rem;
+}
+
+.btn {
+  background-color: #EAB521;
+  width: 10vw;
+  border: 0.2rem solid black;
+  color: rgb(17, 17, 17);
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 0.6rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #EAB521;
+}
+
+.belowNav {
+  height: 14rem;
+}
+.belowNav img {
+  height: 5em;
+}
+.belowNav .belowNavContent {
+  min-width: 50%;
+}
+.belowNav .belowNavContent .belowNavWord h2 {
+  font-size: 5em;
+}
+.belowNav .belowNavContent .belowNavWord p {
+  font-size: 0.4rem;
+}
+
+.carousel-captions {
+  font-size: 1.8rem;
+}
+
+.borderSetting {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+  margin-left: 1rem;
+}
+.menu-item p {
+  font-size: 1.5rem;
+}
+.menu-item .menu-dot-line {
+  height: 2rem;
+  flex: 1;
+  border-bottom: 1px dashed black;
+  margin: auto 1.3rem auto 0px;
+}
+.menu-item img {
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+}
+.menu-item .price-item {
+  height: 0.8rem;
+  padding-right: 1.7rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.formInImageParent {
+  position: relative;
+}
+.formInImageParent .formInImageChild {
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+}
+
+.bookForm {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 7px;
+}
+.bookForm ::-moz-placeholder {
+  color: black;
+  font-weight: 800;
+}
+.bookForm ::placeholder {
+  color: black;
+  font-weight: 800;
+}
+.bookForm [type=email], .bookForm [type=Password], .bookForm [type=text], .bookForm [type=number], .bookForm [type=date], .bookForm [type=time] {
+  color: black;
+  font-weight: bolder;
+  font-size: medium;
+}
+.bookForm textarea {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-radius: 12px;
+}
+.bookForm input:focus, .bookForm textarea:focus {
+  border: 2px solid blue;
+}
+
+.featurette-heading + p, .navbar-brand, .nav-link {
+  font-size: 1.7rem;
+}
+
+footer {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+footer h5 {
+  font-size: 1.7rem;
+}/*# sourceMappingURL=main.css.map */
