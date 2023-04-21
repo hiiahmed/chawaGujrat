@@ -124,6 +124,22 @@ header .navbar-brand {
   font-weight: 500;
 }
 
+  .viewAll{
+    color: white; 
+    font-size: large; 
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#eab521;
+  }
+
+  .viewAll:hover {
+  background-color: black;
+  color: #EAB521; }
+
+
 .formInImageParent {
   position: relative;
 }
