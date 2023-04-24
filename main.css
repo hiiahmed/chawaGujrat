@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  height: 15vh;
+  height: 12vh;
   background-color: black;
   font-weight: 700;
   display: flex;
@@ -33,7 +33,6 @@ header .navbar-brand {
 .navbar-collapse .navbar-nav {
   height: 9vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .navbar-collapse .navbar-nav .active .nav-link {
@@ -60,10 +59,10 @@ header .navbar-brand {
 
 .btn {
   background-color: #EAB521;
-  width: 10vw;
+  width: 13vw;
   border: 0.2rem solid black;
   color: rgb(17, 17, 17);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   border-radius: 0.6rem;
 }
@@ -124,38 +123,16 @@ header .navbar-brand {
   font-weight: 500;
 }
 
-  .viewAll{
-    color: white; 
-    font-size: large; 
+  .ViewAllBtn:hover {
+  border-radius: 9px;
+  border: 2px solid;
     font-weight: 600;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#eab521;
-  }
-
-  .viewAll:hover {
-  background-color: black;
-  color: #EAB521; }
-
-
-.formInImageParent {
-  position: relative;
-}
-.formInImageParent .formInImageChild {
-  position: absolute;
-  bottom: 25%;
-  left: 25%;
-  right: 25%;
-  top: 25%;
 }
 
 .bookForm {
-  height: -moz-fit-content;
   height: fit-content;
   background-color: black;
-  opacity: 0.8;
+  opacity: 1.8;
   border-radius: 7px;
 }
 .bookForm ::-moz-placeholder {
@@ -191,3 +168,13 @@ footer {
 footer h5 {
   font-size: 1.7rem;
 }/*# sourceMappingURL=main.css.map */
+
+.container-fluid, .container {
+  overflow: hidden;
+  padding: 0px; }
+
+  @media(max-width:576px){
+    html{
+      font-size: 41%;
+    }
+  }
