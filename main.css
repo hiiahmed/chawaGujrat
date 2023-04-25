@@ -134,10 +134,16 @@ header .navbar-brand {
   font-weight: 500;
 }
 
+.menu4animation:hover .menu4animation2 {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 0s; 
+}
+
   .ViewAllBtn:hover {
   border-radius: 9px;
   border: 2px solid;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .bookForm {
