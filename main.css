@@ -31,7 +31,7 @@ header .navbar-brand {
 }
 
 .navbar-collapse .navbar-nav {
-  height: 9vh;
+  height: 10%;
   display: flex;
   align-items: center;
 }
@@ -192,6 +192,6 @@ footer h5 {
 
   @media(max-width:576px){
     html{
-      font-size: 41%;
+      font-size: 42%;
     }
   }
