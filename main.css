@@ -72,9 +72,20 @@ header .navbar-brand {
   color: #EAB521;
 }
 
+@keyframes example {
+  from{
+      transform: translate3d(100vw,0,0);
+  }
+  to{
+      transform: translate3d(0,0,0);
+  }
+}
+
 .belowNav {
   height: 14rem;
-}
+  animation-name: example;
+        animation-duration: 3s;
+      }
 .belowNav img {
   height: 5em;
 }
